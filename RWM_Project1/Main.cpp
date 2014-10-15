@@ -132,7 +132,7 @@ int main( int argc, char* args[] ){
 				simulateWorld();
 
 				b2Vec2 position = body->GetPosition();
-				SDL_Rect posImg = {position.x, position.y,0,0};
+				SDL_Rect posImg = {position.x, position.y, 0, 0};
 				
 				SDL_BlitSurface( enemy, NULL, screenSurface, &posImg );			
                 
